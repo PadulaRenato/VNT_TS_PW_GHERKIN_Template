@@ -1,0 +1,10 @@
+# Define que arquivos TypeScript e Gherkin são a linguagem principal
+*.ts linguist-detectable=true
+*.feature linguist-detectable=true
+
+# Ignora arquivos gerados e de documentação nas estatísticas de linguagem
+package-lock.json linguist-generated
+*.html linguist-generated
+*.js linguist-generated
+reports/** linguist-generated
+playwright-report/** linguist-generated
